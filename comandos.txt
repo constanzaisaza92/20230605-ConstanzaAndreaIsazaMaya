@@ -1,0 +1,25 @@
+   82  touch comandos.txt main.js index.html
+   83  git init
+   84  git branch -M main
+   85  git remote add origin https://github.com/constanzaisaza92/20230605-ConstanzaAndreaIsazaMaya.git
+   86  git add .
+   87  git commit -m "commit 01 de Constanza Andrea Isaza Maya"
+   88  git commit -m "commit 01 de Constanza Andrea Isaza Maya"
+   89  git commit -m "commit 01 de Constanza Andrea Isaza Maya"
+   90  git push origin main
+   91  git checkout -b feature
+   92  mkdir Hardware Software SeguridadInformatica
+   93  touch Hardware/resumen.txt
+   94  touch SeguridadInformatica/resumen.txt
+   95  touch Software/resumen.txt
+   96  git add .
+   97  git commit -m "commit 02 de Constanza Andrea Isaza Maya"
+   98  git push origin feature
+   99  git checkout main
+  100  mv main.js/resumenHardware.txt
+  101  git mv main.js resumenHardware.txt
+  102  git mv index.html resumenSoftware.txt
+  103  history 20
+  104  history 30
+  105  history 25 >comandos.txt
+   
